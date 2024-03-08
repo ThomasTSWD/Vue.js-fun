@@ -1,24 +1,48 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import HeaderMessage from './components/HeaderMessage.vue'
+import Clock from './components/Clock.vue'
 </script>
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+
 
     <div class="wrapper">
+
+
+
       <HeaderMessage msg="Texte HeaderMessage" />
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/dashboard">Dashboard</RouterLink>
       </nav>
     </div>
   </header>
 
   <RouterView />
+  <footer>
+    <Clock />
+  </footer>
 </template>
+<script>
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
 
 <style scoped>
 header {
@@ -32,7 +56,7 @@ header {
 }
 
 nav {
-  width: 100%;
+
   font-size: 12px;
   text-align: center;
   margin-top: 2rem;
@@ -69,8 +93,9 @@ nav a:first-of-type {
 
   header .wrapper {
     display: flex;
-    place-items: flex-start;
+    justify-content: space-between;
     flex-wrap: wrap;
+    width: 100%;
   }
 
   nav {
@@ -82,4 +107,4 @@ nav a:first-of-type {
     margin-top: 1rem;
   }
 }
-</style>./components/Header.vue
+</style>

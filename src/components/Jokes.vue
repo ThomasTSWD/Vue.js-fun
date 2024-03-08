@@ -1,11 +1,11 @@
 <script setup>
-import HomepageItem from './HomepageItem.vue'
+import JokeItem from './JokeItem.vue'
 import DocumentationIcon from './icons/IconDocumentation.vue'
 import ToolingIcon from './icons/IconTooling.vue'
 </script>
 
 <template>
-  <HomepageItem>
+  <JokeItem>
     <template #icon>
       <DocumentationIcon />
     </template>
@@ -16,9 +16,9 @@ import ToolingIcon from './icons/IconTooling.vue'
     provides you with all information you need to get started.</p>
 
     <template #joke></template>
-  </HomepageItem>
+  </JokeItem>
 
-  <HomepageItem>
+  <JokeItem>
     <template #icon>
       <ToolingIcon />
     </template>
@@ -30,7 +30,7 @@ import ToolingIcon from './icons/IconTooling.vue'
     More instructions are available in <code>README.md</code>.
 
     <template #joke></template>
-  </HomepageItem>
+  </JokeItem>
 
 
 

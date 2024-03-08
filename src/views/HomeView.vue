@@ -1,9 +1,9 @@
 <script setup>
-import TheWelcome from '../components/Homepage.vue'
+import Jokes from '../components/Jokes.vue'
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <Jokes />
   </main>
 </template>

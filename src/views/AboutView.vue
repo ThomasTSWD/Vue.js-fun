@@ -18,7 +18,10 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+h1{
+  color: #09ff00;
+}
 @media (min-width: 1024px) {
   .about {
     min-height: 100vh;
