@@ -3,6 +3,9 @@ import JokeItem from '../components/dashboard/RandomJoke.vue';
 import Cutie from '../components/dashboard/Cutie.vue';
 import Emoji from '../components/dashboard/Emoji.vue';
 import Ip from '../components/dashboard/Ip.vue';
+import Sheets from '../components/dashboard/Sheets.vue';
+
+
 </script>
 <template>
   <main ref="dashboard">
@@ -10,11 +13,8 @@ import Ip from '../components/dashboard/Ip.vue';
       <div id="intro-card" class="card white-card">
         <Cutie />
 
+        <Sheets />
 
-        <h1>I ❤️ <strong>
-            <Ip />
-          </strong></h1>
-        <p><a href="https://thomastswd.github.io/mypage/">Lorem</a> ipsum</p>
       </div>
 
       <div id="music-card" class="card blur-card">
@@ -38,7 +38,9 @@ import Ip from '../components/dashboard/Ip.vue';
       </div>
       <div id="lorem-card" class="card white-card mini-card">
         <!-- <i class="icon">🐼</i> -->
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <h1>I ❤️ <strong>
+            <Ip />
+          </strong></h1>
 
       </div>
     </section>
