@@ -27,9 +27,9 @@ import Sheets from '../components/dashboard/Sheets.vue';
         <i id="emoji-icon" class="icon">
           <Emoji />
         </i>
-        <div id="joke">
-          <JokeItem />
-        </div>
+
+        <JokeItem />
+
       </div>
       <div id="tswd-card" class="card blur-card mini-card">
         <span>What does TSWD stand for?</span>
