@@ -2,14 +2,21 @@
 
 Builds :
 
-https://65f895021ff11f0d7cef4e1c--vue-fun.netlify.app/
+https://vue-fun.netlify.app/
+
+https://main--vue-fun.netlify.app/
 
 https://thomastswd.github.io/Vue.js-fun/
 
 
 
+!!! Note pour build vite.config.js
 
-------------------
+  base: 'dist/' --> local ou codespace
+  base: '/Vue.js-fun/' -->  github pages
+  base vide pour --> netlify
+
+---
 
 This template should help get you started developing with Vue 3 in Vite.
 
