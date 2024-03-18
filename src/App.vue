@@ -64,6 +64,11 @@ nav a:first-of-type {
   border: 0;
 }
 
+#clock {
+  font-weight: 100;
+  font-size: 0.8em;
+}
+
 @media (min-width: 1024px) {
   header {
     display: flex;

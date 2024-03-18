@@ -1,10 +1,10 @@
 <template>
   <main>
-  <div class="about">
-    <h1 ref="myElement">This is an about page</h1>
-    
-  </div>
-</main>
+    <div class="about">
+      <h1 ref="myElement">GSAP Animated</h1>
+
+    </div>
+  </main>
 </template>
 
 <script>
@@ -19,9 +19,10 @@ export default {
 </script>
 
 <style scoped>
-h1{
-  color: #09ff00;
+h1 {
+  color: #c4f864;
 }
+
 @media (min-width: 1024px) {
   .about {
     min-height: 100vh;
