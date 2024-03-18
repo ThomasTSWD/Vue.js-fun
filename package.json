@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "type": "module",
+  "homepage": "https://thomastswd.github.io/Vue.js-fun/",
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",
