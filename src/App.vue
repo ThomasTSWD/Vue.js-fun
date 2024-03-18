@@ -12,7 +12,7 @@ import Clock from './components/Clock.vue'
 
 
 
-      <HeaderMessage msg="Texte HeaderMessage" />
+      <HeaderMessage msg="Header Message" />
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
