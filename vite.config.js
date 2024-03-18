@@ -12,9 +12,9 @@ export default defineConfig({
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
-  }, //base: 'dist/' // Pour netlify ou local
+  },
+  // !!!
+  //base: 'dist/' // local
   //base: '/Vue.js-fun/'// pour github pages
-  /* TEST base: process.env.NODE_ENV === 'production' ?
-  process.env.DEPLOY_ENV === 'github' ? '/Vue.js-fun/' :
-    'dist/' : '/'*/
+  //base vide pour Pour netlify 
 })
