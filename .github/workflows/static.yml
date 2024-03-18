@@ -46,6 +46,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
-          basename: Vue.js-fun
-          base: Vue.js-fun
+          publish_dir: ./Vue.js-fun/dist
+          
