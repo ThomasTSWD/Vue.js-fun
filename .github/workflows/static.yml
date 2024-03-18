@@ -46,6 +46,16 @@ jobs:
         with:
           # Upload dist folder
           path: './dist'
+          base_dir: 'Vue.js-fun'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+
+
+
+
+
+    publish_dir: ./dist
+    # Spécifiez le chemin de base pour votre déploiement
+    base_dir: NomDuRepo

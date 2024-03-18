@@ -1,5 +1,16 @@
 # vue-website
 
+Builds :
+
+https://65f895021ff11f0d7cef4e1c--vue-fun.netlify.app/
+
+https://thomastswd.github.io/Vue.js-fun/
+
+
+
+
+------------------
+
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
