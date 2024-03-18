@@ -27,22 +27,6 @@ import Clock from './components/Clock.vue'
     <Clock />
   </footer>
 </template>
-<script>
-
-
-
-
-</script>
-
-
-
-
-
-
-
-
-
-
 
 <style scoped>
 header {
