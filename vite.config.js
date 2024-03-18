@@ -14,7 +14,7 @@ export default defineConfig({
     }
   }, //base: 'dist/' // Pour netlify ou local
   //base: '/Vue.js-fun/'// pour github pages
-  base: process.env.NODE_ENV === 'production' ?
-    process.env.DEPLOY_ENV === 'github' ? '/Vue.js-fun/' :
-      'dist/' : '/'
+  /* TEST base: process.env.NODE_ENV === 'production' ?
+  process.env.DEPLOY_ENV === 'github' ? '/Vue.js-fun/' :
+    'dist/' : '/'*/
 })
