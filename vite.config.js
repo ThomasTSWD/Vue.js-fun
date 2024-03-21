@@ -17,4 +17,5 @@ export default defineConfig({
   //base: 'dist/' // local
   //base: '/Vue.js-fun/'// pour github pages
   //base vide pour Pour netlify 
+  base: '/'
 })
