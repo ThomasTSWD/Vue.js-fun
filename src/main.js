@@ -32,7 +32,7 @@ requestAnimationFrame(raf)
 
 /***** LOL *****/
 
-navigator.getBattery().then(function (battery) {
+/* navigator.getBattery().then(function (battery) {
 	const infosBatterie = {
 		niveau: battery.level * 100, // En pourcentage
 		chargeEnCours: battery.charging,
@@ -63,4 +63,4 @@ const infosEquipement = {
 		: "Non supporté",
 };
 
-console.log(infosEquipement);
+console.log(infosEquipement); */
