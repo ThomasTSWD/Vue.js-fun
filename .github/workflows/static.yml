@@ -38,7 +38,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: Build
-        run: npm run build -- --config vite.config.github.js
+        run: npm run build --config vite.config.github.js
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
