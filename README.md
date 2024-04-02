@@ -8,11 +8,6 @@ https://main--vue-fun.netlify.app/
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/d3ef4f07-ea62-4bff-87a0-9a37dd3a6089/deploy-status)](https://app.netlify.com/sites/vue-fun/deploys)
 
-https://thomastswd.github.io/Vue.js-fun/
-
-![example workflow](https://github.com/ThomasTSWD/Vue.js-fun/actions/workflows/static.yml/badge.svg)
-
- publish_branch: gh-pages
 
  ---
 
