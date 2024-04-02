@@ -1,3 +1,5 @@
+Adaptation de https://github.com/ThomasTSWD/Github_Netlify_pages_tests pour remplacer le main.js par des modules Vue.js réutilisables.
+
 # vue-website
 
 Builds :
